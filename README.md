@@ -1,9 +1,5 @@
-# Odin Knowledge Base
+# Inokomi's Github Page
 
-Odin is a Jekyll template for knowledgebases and support sites. Please see the [official Jekyll docs](https://jekyllrb.com/docs/) for more info on running, building and editing a Jekyll site.
+Hey there! I'm trying out Github Pages while using Odin is as a Jekyll template. I'm still learning and working on building the site.
 
-*Full documentation is in the works and coming soon*
-
-
-
-
+Please see the [official Jekyll docs](https://jekyllrb.com/docs/) for more info on running, building and editing a Jekyll site.
