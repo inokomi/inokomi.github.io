@@ -28,7 +28,7 @@ content_type: inokomi #Define whether this is a knowledge base, help center, or 
 use_authors: false #Set this to false to disable showing post authors
 
 brand_logo: logo.png
-brand_name: inokomi
+brand_name: "@inokomi"
 header: hi, i'm kath
 subheader: check out my works
 
