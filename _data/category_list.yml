@@ -1,12 +1,12 @@
 #This file defines all the categories you are using
 
 
-using-subcategories:
-  name: Using Subcategories
-  description: Learn to use subcategories!
-using-odin:
-  name: Using Odin
-  description: Welcome to Odin, time to get started
-customizing-odin:
-  name: Customizing Odin
-  description: Welcome to Odin, time to get started
+projects:
+  name: Projects
+  description: A portfolio of projects I've worked on
+designs:
+  name: Designs
+  description: Some designs I came up with
+side-lines:
+  name: Side-lines
+  description: Other.. stuff.. might interest you though
