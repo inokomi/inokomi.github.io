@@ -3,10 +3,10 @@
 
 projects:
   name: Projects
-  description: A portfolio of projects I've worked on
+  description: "A portfolio of projects I've worked on"
 designs:
   name: Designs
-  description: Some designs I came up with
+  description: "Some designs I came up with"
 side-lines:
   name: Side-lines
-  description: Other.. stuff.. might interest you though
+  description: "Other.. stuff.. might interest you though"
