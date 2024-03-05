@@ -68,7 +68,7 @@ help_two_button: Twitter
 help_two_link: https://twitter.com/theteaguns
 
 # Build settings
-theme: minima
+remote_theme: Odin
 plugins:
   - jekyll-feed
   - jekyll-last-modified-at
