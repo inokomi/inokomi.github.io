@@ -19,9 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: inokomi
-description: inokomi is failing at everything
+description: my portfolio !!
 baseurl: "" # the subpath of your site, e.g. /support
-url: "https://inokomi.github.io" # the base hostname AND PROTOCOL for your site, e.g. http://example.com
+url: https://inokomi.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
 content_type: inokomi #Define whether this is a knowledge base, help center, or something else
@@ -30,7 +30,7 @@ use_authors: false #Set this to false to disable showing post authors
 brand_logo: logo.png
 brand_name: "@inokomi"
 header: hi, i'm kath
-subheader: check out my works
+subheader: Always eager to learn and explore new technologies!
 
 meta_image: odin-meta.png
 
@@ -53,19 +53,19 @@ nav_item_two_link: https://twitter.com/inokomi
 nav_item_three: #
 nav_item_three_link: #
 
-nav_button: Return to Home
+nav_button: Home
 nav_button_link: https://inokomi.github.io
 
 # More Help
-help_one_title: Odin Bugs
-help_one_content: If you find any bugs or problems with this theme, please open an issue over on Github.
-help_one_button: Github
-help_one_link: https://github.com/inokomi
+help_one_title: Contact Me
+help_one_content: Feel free to reach out through email, phone, or through social media. I look forward to hearing from you! valeriok2001@gmail.com +639992218606
+help_one_button: LinkedIn
+help_one_link: https://www.linkedin.com/in/katherine-valerio-2514241a2/
 
-help_two_title: Twitter
-help_two_content: Feel free to tweet at me if you have suggestions for Odin. Or if you just want to say hi.
-help_two_button: Twitter
-help_two_link: https://twitter.com/inokomi
+help_two_title: Placeholder
+help_two_content: Hmm.. What can I put here?
+help_two_button: Link
+help_two_link: #
 
 # Build settings
 theme: minima

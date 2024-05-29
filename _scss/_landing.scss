@@ -1,10 +1,12 @@
 .header-bg {
   background-color: $primary-color;
+  
 }
 
 .header-bg-img {
-  background-image: url("../assets/spotify_office.jpg");
+  //background-image: url("../assets/bg.png");
   background-color: $primary-color;
+  //background-color: rgba(30,30,46,255);
   min-height: 340px;
 }
 

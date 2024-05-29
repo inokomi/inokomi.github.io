@@ -1,6 +1,10 @@
 
 <section class="container-full footer">
-  <svg id="anglesvg" viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg"><path d="M720 60l720-60H0z" fill="#f5f6ff" /></svg>
+  <!-- <svg id="anglesvg" viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg"><path d="M720 60l720-60H0z" fill="#f5f6ff" /></svg> -->
+  <svg id="anglesvg" viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 20 Q 180 40, 360 20 T 720 20 T 1080 20 T 1440 20 L 1440 0 L 0 0 Z" fill="#f5f6ff" />
+  </svg>
+
   <div class="container grid-xl footer-contents mb-0">
     <div class="columns text-center">
       <div class="column col-12">
@@ -37,8 +41,6 @@
             {% endif %}
           </div>
         <p>© 20{{ site.time | date: '%y' }} All rights reserved.</p>
-        
-        <a class="text-small" href="https://github.com/TeaGuns/odin" target="_blank">Powered by Odin</a>
       </div>
     </div>
   </div>

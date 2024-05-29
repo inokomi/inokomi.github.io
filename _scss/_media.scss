@@ -86,3 +86,71 @@ video.video-responsive {
     margin-top: $layout-spacing;
   }
 }
+
+//FOR GALLERY
+
+/* The grid: Four equal columns that floats next to each other */
+.columnGallery {
+  width: 15%;
+  max-height: 100%;
+  padding: 1px;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Style the images inside the grid */
+.columnGallery img {
+  opacity: 0.8;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5%;
+  box-shadow: $light-shadow;
+  
+}
+
+.columnGallery img:hover {
+  opacity: 1;
+  animation: slide-down .15s ease 1;
+}
+
+/* Clear floats after the columns */
+.rowGallery:after {
+  content: "";
+  clear: both;
+}
+
+.rowGallery {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.containerGallery {
+  position: relative;
+  display: none;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Expanding image text */
+#imgtextGallery {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtnGallery {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
