@@ -3,11 +3,11 @@
 
 projects:
   name: Projects
-  description: "This is a portfolio that features a mix of academic and personal projects I've worked on so far"
+  description: "This is a portfolio that features a mix of academic, professional, & personal projects I've worked on so far"
   display: /assets/projpics/kirby1.png
-designs:
-  name: Designs
-  description: "Here are some of the designs I have integrated in projects"
+about-me:
+  name: About Me
+  description: "Stuff about me!"
   display: /assets/projpics/kirby2.png
 side-lines:
   name: Side-lines
