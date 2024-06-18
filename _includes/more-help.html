@@ -1,4 +1,4 @@
-{% if site.help_one_title == null %}
+<!-- {% if site.help_one_title == null %}
 {% else %}
 <div class="column col-12 text-center mt-16">
   <h4>other info</h4>
@@ -16,4 +16,37 @@
   <p>{{ site.help_two_content }}</p>
   <a href="{{ site.help_two_link }}" target="_blank">{{ site.help_two_button}} <i class='uil uil-arrow-right arrow-hover'></i></a>
 </div>
-{% endif %}
+{% endif %} -->
+
+<div class="column col-12 text-center mt-16">
+  <h4>connect with me?</h4>
+</div>
+<div class="column col-4 col-sm-12 col-mx-auto card">
+  <p>Email
+    <button class="btn" onclick="copy()" id="info">valeriok2001@gmail.com</button>
+  </p>
+</div>
+<div class="column col-4 col-sm-12 col-mx-auto card">
+  <p>Discord
+    <button class="btn" onclick="copy()" id="info">koe.mi</button>
+  </p>
+</div>
+<div class="column col-4 col-sm-12 col-mx-auto card">
+  <p>Phone
+    <button class="btn" onclick="copy()" id="info">+639992218606</button>
+  </p>
+</div>
+  
+  <script>
+    function copy() {
+      // Get the text content of the button with id "info"
+      var copyText = document.getElementById("info").textContent;
+    
+      // Copy the text to the clipboard
+      navigator.clipboard.writeText(copyText);
+      
+      // Alert the copied text
+      alert("Copied: " + copyText);
+    }
+  </script>
+  

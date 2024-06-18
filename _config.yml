@@ -32,10 +32,10 @@ brand_name: "@inokomi"
 header: hi, i'm kath
 subheader: Always eager to learn and explore new technologies!
 
-meta_image: odin-meta.png
+meta_image: meta.png
 
 # Social Links
-twitter_username: inokomi
+twitter_username: 
 facebook_page:
 github_username: inokomi
 email: ino2komi@gmail.com
@@ -43,29 +43,18 @@ linkedin_page:
 instagram_username: 
 
 
-# Navivation
+# Nav
 nav_item_one: Github
-nav_item_one_link: https://inokomi.github.io
+nav_item_one_link: https://github.com/inokomi
 
-nav_item_two: Twitter
-nav_item_two_link: https://twitter.com/inokomi
+nav_item_two: 
+nav_item_two_link: 
 
 nav_item_three: #
 nav_item_three_link: #
 
 nav_button: Home
 nav_button_link: https://inokomi.github.io
-
-# More Help
-help_one_title: Contact Me
-help_one_content: Feel free to reach out through email, phone, or through social media. I look forward to hearing from you! valeriok2001@gmail.com +639992218606
-help_one_button: LinkedIn
-help_one_link: https://www.linkedin.com/in/katherine-valerio-2514241a2/
-
-help_two_title: Placeholder
-help_two_content: Hmm.. What can I put here?
-help_two_button: Link
-help_two_link: #
 
 # Build settings
 theme: minima
