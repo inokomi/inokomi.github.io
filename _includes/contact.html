@@ -1,32 +1,32 @@
 <div class="column col-12 text-center mt-16">
-  <h4>Connect with me?</h4>
+  <h4>Connect with me?</h4> 
 </div>
 
-<div class="column col-12 card">
+<div class="column col-12">
   <div class="container-full">
     <div class="container grid-xl">
       <div class="columns">
         <div class="column col-4 col-md-6 col-sm-12">
-          <div class="card card-link" onclick="copy()" style="cursor: pointer;">
+          <div class="card card-link" onclick="copy('email')" style="cursor: pointer;">
             <div style="display: flex; align-items: center; justify-content: center;">
               <img style="width: 30px; height: 30px;" src="\assets\svg\email.svg">
-              <p id="info" style="margin-left: 10px;margin-top: 20px;">valeriok2001@gmail.com</p>
+              <p id="email" style="margin-left: 10px;margin-top: 20px;">valeriok2001@gmail.com</p>
             </div>
           </div>
         </div>
         <div class="column col-4 col-md-6 col-sm-12">
-          <div class="card card-link" onclick="copy()" style="cursor: pointer;">
+          <div class="card card-link" onclick="copy('phone')" style="cursor: pointer;">
             <div style="display: flex; align-items: center; justify-content: center;">
               <img style="width: 30px; height: 30px;" src="\assets\svg\phone.svg">
-              <p id="info" style="margin-left: 10px;margin-top: 20px;">+639992218606</p>
+              <p id="phone" style="margin-left: 10px;margin-top: 20px;">+639992218606</p>
             </div>
           </div>
         </div>
         <div class="column col-4 col-md-6 col-sm-12">
-          <div class="card card-link" onclick="copy()" style="cursor: pointer;">
+          <div class="card card-link" onclick="copy('discord')" style="cursor: pointer;">
             <div style="display: flex; align-items: center; justify-content: center;">
               <img style="width: 30px; height: 30px;" src="\assets\svg\discord.svg">
-              <p id="info" style="margin-left: 10px;margin-top: 20px;">koe.mi</p>
+              <p id="discord" style="margin-left: 10px;margin-top: 20px;">koe.mi</p>
             </div>
           </div>
         </div>
@@ -45,9 +45,9 @@
 </div>
 
 <script>
-  function copy() {
+  function copy(elementId) {
     // Get the text content of the button with id "info"
-    var copyText = document.getElementById("info").textContent;
+    var copyText = document.getElementById(elementId).textContent;
 
     // Copy the text to the clipboard
     navigator.clipboard.writeText(copyText);
