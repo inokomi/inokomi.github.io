@@ -1,42 +1,40 @@
-<!-- {% if site.help_one_title == null %}
-{% else %}
 <div class="column col-12 text-center mt-16">
-  <h4>other info</h4>
+  <h4>Connect with me?</h4>
 </div>
-<div class="column col-4 col-sm-12 p-8 mb-8 col-mx-auto">
-  <h5>{{ site.help_one_title }}</h5>
-  <p>{{ site.help_one_content }}</p>
-  <a href="{{ site.help_one_link }}">{{ site.help_one_button }} <i class='uil uil-arrow-right arrow-hover'></i></a>
-</div>
-{% endif %}
-{% if site.help_two_title == null %}
-{% else %}
-<div class="column col-4 col-sm-12 p-8 mb-8 col-mx-auto">
-  <h5>{{ site.help_two_title }}</h5>
-  <p>{{ site.help_two_content }}</p>
-  <a href="{{ site.help_two_link }}" target="_blank">{{ site.help_two_button}} <i class='uil uil-arrow-right arrow-hover'></i></a>
-</div>
-{% endif %} -->
 
-<div class="column col-12 text-center mt-16">
-  <h4>connect with me?</h4>
+<div class="column col-12 card">
+  <div class="container-full">
+    <div class="container grid-xl">
+      <div class="columns">
+        <div class="column col-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div style="display: flex; align-items: center; justify-content: center;">
+              <img style="width: 30px; height: 30px;" src="\assets\svg\email.svg">
+              <p style="margin-left: 10px;margin-top: 20px;">valeriok2001@gmail.com</p>
+            </div>
+          </div>
+      </div>
+        <div class="column col-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div style="display: flex; align-items: center; justify-content: center;">
+              <img style="width: 30px; height: 30px;" src="\assets\svg\phone.svg">
+              <p style="margin-left: 10px;margin-top: 20px;">+639992218606</p>
+            </div>
+          </div>
+       </div>
+        <div class="column col-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div style="display: flex; align-items: center; justify-content: center;">
+              <img style="width: 30px; height: 30px;" src="\assets\svg\discord.svg">
+              <p style="margin-left: 10px;margin-top: 20px;">koe.mi</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
 </div>
-<div class="column col-4 col-sm-12 col-mx-auto card">
-  <p>Email
-    <button class="btn" onclick="copy()" id="info">valeriok2001@gmail.com</button>
-  </p>
-</div>
-<div class="column col-4 col-sm-12 col-mx-auto card">
-  <p>Discord
-    <button class="btn" onclick="copy()" id="info">koe.mi</button>
-  </p>
-</div>
-<div class="column col-4 col-sm-12 col-mx-auto card">
-  <p>Phone
-    <button class="btn" onclick="copy()" id="info">+639992218606</button>
-  </p>
-</div>
-  
+
   <script>
     function copy() {
       // Get the text content of the button with id "info"

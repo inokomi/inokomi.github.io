@@ -1,5 +1,9 @@
 .header-bg {
-  background-image: url("../assets/cover.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(88, 12, 95, 0.78) ), url("../assets/nora.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center bottom;
+
   //background-color: $primary-color;
   
 }
