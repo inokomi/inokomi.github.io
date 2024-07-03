@@ -48,7 +48,7 @@ layout: default
           {% endif %}
         {% endfor %} 
       {% else %}
-        {% for post in site.categories.[page.category] %}
+        {% for post in site.categories[page.category] %}
           {% include article-card.html %}
         {% endfor %}
       {% endif %}
@@ -56,7 +56,7 @@ layout: default
 
 
 
-      {% include more-help.html %}
+      {% include contact.html %}
     </div>
   </div>
 </div>
