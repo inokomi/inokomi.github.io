@@ -21,10 +21,10 @@ I'm a software engineering student with a passion for UI/UX, front-end developme
 - Microsoft Office, Adobe Creative Suite, Figma, UML, Flowcharting, Git
 
 ###### Development Skills
-- UI/UX Design, Graphic Design, Manual/Automation QA, Database Management, Front-End, Back-End, Desktop, Mobile(Android), Web, Arduino, Agile Workflow
+- UI/UX Design, Graphic Design, Database Management, Front-End, Back-End, Desktop, Mobile(Android), Web, Arduino, Agile Workflow
 
-###### Programming Languages
-- C#, .NET, C, C++, Java, JavaScript, Python, PHP, Ruby, SQL, XML/HTML, SCSS/CSS
+###### Languages & Frameworks
+- C#, .NET, C, C++, Java, JavaScript, React, Python, PHP, Ruby, SQL, XML/HTML, SCSS/CSS
 
 <!-- {% for post in site.categories.about-me %}
   {% include article-card.html %}
