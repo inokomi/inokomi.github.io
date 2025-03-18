@@ -11,7 +11,7 @@ short-description: Stuff about me!
 
 ##### About Me
 
-I'm a software engineering student with a passion for UI/UX, front-end development, and IoT. With over 5 years of experience through academic and personal activities, I thrive both in team settings and working independently. I'm proficient in C#, JavaScript, HTML, CSS, and various front-end frameworks. I enjoy creating intuitive and engaging user interfaces, and I'm always eager to learn new technologies and improve my skills. In my free time, I love to continue working on my passion projects.
+I'm a software engineering student with a passion for UI/UX, front-end development, and IoT. With over 5 years of experience through academic, personal activities, and internships, I thrive both in team settings and working independently. I'm proficient in C#, JavaScript, HTML, CSS, and various front-end frameworks. I enjoy creating intuitive and engaging user interfaces, and I'm always eager to learn new technologies and improve my skills. In my free time, I love to continue working on my passion projects.
 
 -----
 
